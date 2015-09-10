@@ -1,0 +1,68 @@
+.out {
+  margin-bottom: 16px; }
+
+.filter {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 16px 10px;
+  background-color: #2FA4E7;
+  color: #fff;
+  border-radius: 5px 5px 0 0; }
+  .filter input, .filter select {
+    border: none;
+    color: #555;
+    outline: none; }
+  .filter button {
+    font-size: 13px; }
+  .filter .cls1 {
+    width: 140px; }
+  .filter .cls2 {
+    width: 80px; }
+  .filter .cls3 {
+    width: 115px; }
+  .filter .cls4 {
+    width: 80px; }
+  .filter .code_search_box {
+    float: right;
+    position: relative;
+    line-height: 30px; }
+  .filter .code_search {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    line-height: 22px;
+    color: #555;
+    background-color: #fff;
+    margin-left: -5px;
+    vertical-align: middle;
+    cursor: pointer;
+    border-left: 1px solid #E1E1E1; }
+
+table {
+  width: 100%;
+  border: 1px solid #E1E1E1;
+  border-top: 0;
+  border-collapse: collapse;
+  text-align: center; }
+  table thead tr {
+    background-color: #F5F5F5; }
+  table tr td, table tr th {
+    border: 1px solid #E1E1E1;
+    padding: 5px 0; }
+  table tr td a {
+    text-decoration: underline;
+    color: #2FA4E7;
+    font-weight: bold; }
+  table tr td a:hover {
+    color: #317EAC; }
+  table tr:nth-child(2n) {
+    background-color: #F9F9F9; }
+  table tr:hover:not([name='head']) {
+    background-color: #F5F5F5; }
+
+.count {
+  padding-top: 8px; }
+  .count .count span:nth-child(1) {
+    font-size: 16px; }
+
+/*# sourceMappingURL=orderManagement.css.map */

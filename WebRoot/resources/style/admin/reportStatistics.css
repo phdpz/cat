@@ -1,0 +1,67 @@
+.report_nav {
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative; }
+  .report_nav li {
+    float: left;
+    margin-right: 5px; }
+    .report_nav li a {
+      display: block;
+      line-height: 35px;
+      width: 100px;
+      background-color: #2FA4E7;
+      margin-top: 4px solid inherit;
+      color: #fff;
+      text-align: center;
+      font-weight: bold; }
+    .report_nav li a:hover {
+      background-color: #50B4F0; }
+    .report_nav li a.active {
+      background-color: #F5F5F5;
+      color: #555;
+      padding-top: 4px;
+      line-height: 31px; }
+  .report_nav #line {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100px;
+    height: 4px;
+    background: #2FA4E7; }
+
+.panel {
+  border: 1px solid #E1E1E1;
+  margin-bottom: 20px; }
+  .panel .panel_header {
+    line-height: 40px;
+    color: #2FA4E7;
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 18px;
+    background: linear-gradient(to bottom, #fff, #F5F5F5); }
+  .panel .panel_body {
+    padding: 14px; }
+    .panel .panel_body h3 {
+      text-align: center;
+      color: #317EAC;
+      margin: 20px 0 10px; }
+    .panel .panel_body .cartogram {
+      overflow: hidden; }
+      .panel .panel_body .cartogram div {
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        width: 48%;
+        margin: 0 1%;
+        float: left;
+        text-align: center;
+        border: 1px solid red;
+        padding: 10px 0; }
+    .panel .panel_body table th .fa {
+      font-size: 20px;
+      display: inline-block;
+      margin-left: 5px;
+      cursor: pointer; }
+    .panel .panel_body table tbody tr td:not(:nth-child(1)) {
+      text-align: right; }
+
+/*# sourceMappingURL=reportStatistics.css.map */

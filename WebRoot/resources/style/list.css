@@ -1,0 +1,66 @@
+/* content
+/* -------------------------------------------------------------------------------- */
+.searchFrom {
+  margin: 0 .4em;
+}
+/* filter */
+.filter {
+  border: 1px solid #ddd;
+  margin: .5em .466em;
+  background-color: #fff;
+}
+.filter > div {
+  line-height: 30px;
+}
+.ui-content .filter > div a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-shadow: none;
+  font-weight: normal;
+}
+.ui-content .filter > div .active {
+  color: orange;
+}
+.ui-content .filter > div a:visited,
+.ui-content .filter > div a:hover,
+.ui-content .filter > div a:active {
+  color: #3388cc;
+}
+/* box */
+.ui-content .box {
+  height: 120px;
+  padding: .466em;
+  margin-bottom: .5em;
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+}
+.ui-content .box > div {
+  float: left;
+  height: 100%;
+}
+.ui-content .box > div:nth-child(1) {
+  width: 120px;
+}
+.ui-content .box > div img{
+  width: 100%;
+  height: 100%;
+}
+.ui-content .box > div:nth-child(2) {
+  padding-left: 1em;
+}
+.ui-content .box > div:nth-child(2) .market{
+   color: #ccc;
+   font-size: 1em;
+   text-indent: 12px;
+   display: inline-block;
+   text-shadow: none;
+}
+.ui-content .box > a {
+  position: absolute;
+  bottom: .466em;
+  right: .466em;
+  font-size: 24px;
+}

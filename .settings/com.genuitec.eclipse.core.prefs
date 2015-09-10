@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+validator.Checked=/
+validator.Unchecked=WebRoot/WEB-INF/jsp/analyse/stationAnalyse.jsp,WebRoot/WEB-INF/jsp/login.jsp,WebRoot/WEB-INF/jsp/analyse/sexAnalyse.jsp,WebRoot/WEB-INF/jsp/analyse/analyse.jsp,WebRoot/WEB-INF/jsp/analyse/anaylseBussiness.jsp,WebRoot/WEB-INF/jsp/station/manageStation.jsp,WebRoot/WEB-INF/jsp/analyse/schoolAnalyse.jsp

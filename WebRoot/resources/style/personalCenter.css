@@ -1,0 +1,32 @@
+/* content
+/* -------------------------------------------------------------------------------- */
+.ui-content {
+  margin-bottom: 56px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.ui-content .userImg {
+  width: 50px;
+  height: 50px;
+  border: 2px solid red;
+  border-radius: 25px;
+  display: block;
+  margin: 30px auto 0;
+}
+.ui-content .userName {
+  font-size: 12px;
+  margin: 10px 0;
+  text-align: center;
+  font-weight: bold;
+}
+/* 我的订单页面
+/* ------------------------------------------------------------------------- */
+#order .ui-content .nav > div {
+  text-align: center;
+  border-right: 1px solid #ccc;
+  font-size: 14px;
+  padding: 5px 0;
+}
+#order .ui-content .nav > div .active{
+  color: orange;
+}

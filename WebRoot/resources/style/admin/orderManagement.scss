@@ -1,0 +1,116 @@
+$mainColor: #2FA4E7;
+$deepColor: #317EAC;
+$borderColor: #E1E1E1;
+$shadowColor: #EEE;
+$color: #555;
+$grayBackground: #F5F5F5;
+$tableZebra: #F9F9F9;
+$tableHover: #F5F5F5;
+
+.out {
+	margin-bottom: 16px;
+}
+.filter {
+	font-size: 16px;
+	font-weight: bold;
+
+	padding: 16px 10px;
+	background-color: $mainColor;
+	color: #fff;
+	border-radius: 5px 5px 0 0 ;
+
+	input,select {
+		border: none;
+		color: $color;
+		outline: none;
+	}
+
+	button {
+		font-size: 13px;
+	}
+
+	.cls1 {
+		width: 140px;
+	}
+
+	.cls2 {
+		width: 80px;
+	}
+
+	.cls3 {
+		width: 115px;
+	}
+
+	.cls4 {
+		width: 80px;
+	}
+
+	.code_search_box {
+		float: right;
+		position: relative;
+		line-height: 30px;
+	}
+
+	.code_search {
+		display: inline-block;
+		width: 30px;
+		text-align: center;
+		line-height: 22px;
+		color: $color;
+		background-color: #fff;
+		margin-left: -5px;
+		vertical-align: middle;
+		cursor: pointer;
+		border-left: 1px solid $borderColor;
+	}
+
+}
+
+table {
+	width: 100%;
+	border: 1px solid $borderColor;
+	border-top: 0;
+	border-collapse: collapse;
+	text-align: center;
+
+	thead {
+		tr {
+			background-color: $grayBackground;
+		} 
+	}
+
+	tr {
+
+		td,th {
+			border: 1px solid $borderColor;
+			padding: 5px 0;
+		}
+
+		td a{
+			text-decoration: underline;
+			color: $mainColor;
+			font-weight: bold;
+		}
+
+		td a:hover {
+			color: $deepColor;
+		}
+	}
+    
+	tr:nth-child(2n) {
+		background-color: $tableZebra;
+	}
+
+	tr:hover:not([name='head']) {
+		background-color: $tableHover;
+	}
+
+}
+
+.count {
+	padding-top: 8px;
+	.count span:nth-child(1) {
+		font-size: 16px;
+	}
+}
+	

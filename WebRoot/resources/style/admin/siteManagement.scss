@@ -1,0 +1,74 @@
+@import "reset";
+.wrap {
+	width: 460px;
+	margin: 10px 10px;
+
+	input,select {
+			font-size: 14px;
+			height: 26px;
+			padding: 0 10px;
+		}
+	 td {
+		padding: 10px 0;
+	}
+
+	table {
+
+		tr {
+
+			td:nth-child(1) {
+				font-weight: bold;
+				text-align: right;
+			}
+
+			td:nth-child(2) {
+				padding-right: 10px;
+			}
+
+			td:nth-child(2)[name="spec"] {
+				padding-left: 22px;
+			}
+
+			td:nth-child(3) {
+				text-align: center;
+			}
+		}
+
+	}
+	#managerBox,
+	#passwordBox {
+		border: 1px solid #A9A9A9;
+		margin:10px 0 10px 120px;
+		position: relative;
+		background-color: #fff;
+		padding: 0 10px;
+		display: none;
+	}
+
+	#passwordBox {
+		width: 340px;
+	}
+	#managerBox:before, 
+	#passwordBox:before{
+		content: "";
+		position: absolute;
+		top: -6px;
+		padding: 6px;
+		left: 10px;
+		background-color: inherit;
+		border: 1px solid #A9A9A9;
+		border-right: none;
+		border-bottom: none;
+		transform:rotate(45deg);
+	}
+
+	button.confirm {
+		margin-left: 110px;
+		margin-top: 20px;
+	}
+
+	button.confirm2 {
+		margin-left: 88px;
+		margin-top: 20px;
+	}
+}

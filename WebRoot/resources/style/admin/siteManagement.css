@@ -1,0 +1,58 @@
+body, div, ul, ol, input, p, li, h1, h2, h3, h4, h5, h6, table, tr, td, tbody, thead, th {
+  padding: 0;
+  margin: 0; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.wrap {
+  width: 460px;
+  margin: 10px 10px; }
+  .wrap input, .wrap select {
+    font-size: 14px;
+    height: 26px;
+    padding: 0 10px; }
+  .wrap td {
+    padding: 10px 0; }
+  .wrap table tr td:nth-child(1) {
+    font-weight: bold;
+    text-align: right; }
+  .wrap table tr td:nth-child(2) {
+    padding-right: 10px; }
+  .wrap table tr td:nth-child(2)[name="spec"] {
+    padding-left: 22px; }
+  .wrap table tr td:nth-child(3) {
+    text-align: center; }
+  .wrap #managerBox,
+  .wrap #passwordBox {
+    border: 1px solid #A9A9A9;
+    margin: 10px 0 10px 120px;
+    position: relative;
+    background-color: #fff;
+    padding: 0 10px;
+    display: none; }
+  .wrap #passwordBox {
+    width: 340px; }
+  .wrap #managerBox:before,
+  .wrap #passwordBox:before {
+    content: "";
+    position: absolute;
+    top: -6px;
+    padding: 6px;
+    left: 10px;
+    background-color: inherit;
+    border: 1px solid #A9A9A9;
+    border-right: none;
+    border-bottom: none;
+    transform: rotate(45deg); }
+  .wrap button.confirm {
+    margin-left: 110px;
+    margin-top: 20px; }
+  .wrap button.confirm2 {
+    margin-left: 88px;
+    margin-top: 20px; }
+
+/*# sourceMappingURL=siteManagement.css.map */

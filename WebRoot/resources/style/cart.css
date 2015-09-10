@@ -1,0 +1,152 @@
+/* page1(购物车没有商品的样式) content
+/* -------------------------------------------------------------------------------- */
+html,body{
+  height: 100%;
+}
+#page1{
+  height: 100%;
+}
+#page1 .ui-content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden
+}
+#page1 .tipDiv {
+    position: absolute;
+    height: 300px;
+    width: 224px;
+    top: 50%;
+    left: 50%;
+    margin-left: -112px;
+    margin-top: -150px;
+    text-align: center;
+}
+.fa-frown-o {
+  color: MediumSeaGreen;
+  display: block;
+  text-align: center;
+  font-size:60px;
+}
+#page1 .ui-content .go {
+  background-color: orange;
+  color: #fff;
+  text-shadow: none;
+  font-weight: bold;
+}
+/* page2(购物车有商品的样式) content
+/* -------------------------------------------------------------------------------- */
+#page2 .ui-content {
+  margin-bottom: 60px;
+}
+.ui-header .allselect {
+  position: absolute;
+  right: .466em;
+  top: 50%;
+  margin-top: -8px;
+}
+/* 购物车商品列表的样式 */
+.list {
+  height: 80px;
+  padding: .446em;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  font-size: .8em;
+  background-color: #fff;
+}
+.list>div {
+  display: inline-block;
+  vertical-align: top;
+}
+/* 第一列 */
+.list .col1 {
+  position: relative;
+  width: 20px;
+  height: 80px;
+}
+.list .col1 input {
+  margin: 0;
+  width: 20px;
+  height: 80px;
+  visibility: hidden;
+}
+.list .col1 .select {
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -10px;
+}
+/* 第二列 */
+.list .col2 {
+  width: 80px;
+}
+.list .col2 img{
+  height:100%;
+  width: 100%;
+}
+/* 第三列 */
+.list .col3 {
+  margin-left: 2%;
+}
+.list .col3 p,.list .col3 div, .list p{
+  margin: 0;
+  padding: 6px 0;
+}
+/* 第四列 其父容器是list */
+.list .edit{
+   position: absolute; 
+   top: .466em;
+   right: .466em;
+   cursor: pointer;" 
+}
+.list .btnGruop {
+  position: absolute; 
+  right: 24px; 
+  top: 30px;
+  display: none;
+}
+.list .fa-trash-o {
+  position: absolute;
+  bottom: .466em; 
+  right: .466em;
+  font-size: 20px;
+}
+.account {
+  line-height: 50px;
+  background-color: MediaSeaGreen;
+  color: white;
+}
+.account span {
+  display: inline-block;
+  margin-left: .466em;
+}
+/* 弹出对话框 */
+.dialog2 {
+  width: 200px;
+  padding-top: 10px;
+  position: fixed;
+  top: 0;
+  margin-top: -100px;
+  left: 50%;
+  margin-left: -100px;
+  background-color: rgba(0,0,0,.4);
+  border-radius: 5px; 
+  color: #fff;
+  text-shadow: none;
+  font-weight: bold;
+  font-size: 1em;
+}
+.dialog2 .fa{
+  font-size: 30px;
+  display: inline-block;
+  margin-left: 20px;
+}
+.dialog2 .btnAre {
+  padding-top: 10px;
+  text-align: center;
+}
+.dialog2 .btnAre button{
+  line-height: .6em;
+  width: 40%;
+}
